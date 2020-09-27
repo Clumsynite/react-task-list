@@ -1,5 +1,12 @@
 {
   "name": "task-list",
+  "author": "Clumsyknight",
+  "description": "Practicing react app",
+  "homepage": "https://clumsynite.github.io/react-task-list",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Clumsynite/react-task-list"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
