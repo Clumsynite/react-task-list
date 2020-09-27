@@ -13,6 +13,7 @@ class App extends Component {
     this.textChange = this.textChange.bind(this)
     this.addTask = this.addTask.bind(this)
     this.deleteTask = this.deleteTask.bind(this)
+    this.editTask = this.editTask.bind(this)
   }
   textChange(e) {
     const val = e.target.value
@@ -29,6 +30,12 @@ class App extends Component {
   deleteTask(id) {
     const array = this.state.tasks
     array.splice(id, 1)
+    this.setState({tasks: array})
+  }
+  editTask(id) {
+    const array = this.state.tasks
+    const edit = prompt(`Editing ${array[id]}\nEnter new Task: `)
+    array[id] = edit
     this.setState({tasks: array})
   }
 
@@ -48,7 +55,7 @@ class App extends Component {
             </button>
           </div>
         </form>
-        <Overview tasks={tasks} remove={this.deleteTask}/>
+        <Overview tasks={tasks} remove={this.deleteTask} edit={this.editTask}/>
       </div>
     );
   }
