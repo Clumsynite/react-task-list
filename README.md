@@ -1,3 +1,8 @@
+# Task List
+
+A project built using [this tutorial](https://www.theodinproject.com/courses/javascript/lessons/handle-inputs-and-render-lists?ref=lnav) to practice react basics.
+This App is a part of TheOdinProject's new React Curriculum, built.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

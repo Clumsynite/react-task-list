@@ -1,0 +1,16 @@
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.red {
+  color: red;
+}
+.windows {
+  color: #0080ff;
+}
+
+.pointer {
+  cursor: pointer;
+  user-select: none;
+}
