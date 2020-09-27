@@ -5,7 +5,7 @@
 A project built using [this tutorial](https://www.theodinproject.com/courses/javascript/lessons/handle-inputs-and-render-lists?ref=lnav) to practice react basics.
 This App is a part of TheOdinProject's new React Curriculum, built.
 
-You can view the live app [here](https://clumsynite.github.io/react-task-list/.)
+You can view the live app [here](https://clumsynite.github.io/react-task-list/)
 
 To be Added
 
